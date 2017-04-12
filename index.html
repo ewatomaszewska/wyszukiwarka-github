@@ -1,33 +1,31 @@
 <html>
 <head>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.0.jss"></script>
+  <script src="wyszukiwarka.js"></script>
 </head>
 <body>
   <div class="container">
     <div class="wyszukiwarka">
       <div class="header">
-
-       <!-- <input  type="text" class="form-control ng-valid ng-dirty ng-valid-parse ng-touched" placeholder="Szukaj..." > -->
-
-         <div class="input-group">
-              <input id ="searchValue" type="text" class="form-control" placeholder="Szukaj..." value ="tetris">
-                <span class="input-group-btn">
+        <div class="input-group">
+          <input id="searchValue" type="text" class="form-control" placeholder="Szukaj..." value="">
+          <span class="input-group-btn">
                   <button id ="send" class="btn btn-default" type="button" type ="submit">
                         <i class="glyphicon glyphicon-search"></i></button>
-              </span>
-            </div><!-- /input-group -->
+                </span>
+        </div>
       </div>
-        
-       
       <ul id="lista">
-        
-        <li>Lista pusta</li>
+        <li></li>
       </ul>
     </div>
   </div>
-
 </body>
 </html>
 <!--https://jsfiddle.net/ega8Lszs/3/-->

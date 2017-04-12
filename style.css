@@ -5,10 +5,33 @@ body {
   width: 900px;
   height: auto;
 }
-img {
-  width: 30px;
-  height: 30px;
+
+input[value] {
+  font-weight: bold;
+  font-size: 16px;
 }
+
+img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+p {
+  display: inline-block;
+  padding-left: 15px;
+  line-height: 1em;
+}
+
+.userName {
+  color: #fff;
+  font-size: 18px;
+}
+
+.userFull a {
+  color: #BAB9B9;
+}
+
 .container {
   margin: 0 auto;
   background-color: #eeeff1;
@@ -22,25 +45,35 @@ img {
   color: #165d5c;
   border-radius: 5px 5px 0 0;
 }
+
 ul {
   padding-left: 0;
 }
+
 ul li {
   background-color: #34495e;
   list-style: none;
-  padding: 40px;
+  padding: 20px;
   border: #2d3f55 1px solid;
   color: #fff;
 }
+
 ul li:last-child {
   border-radius: 0 0 5px 5px;
 }
-.btn-default, .input-group, .form-control, .btn-default:enabled,  .form-control:enabled {
+
+.btn-default,
+.input-group,
+.form-control,
+.btn-default:enabled,
+.form-control:enabled {
   background-color: transparent;
   border: 0px;
   box-shadow: 0 0 0;
 }
-.glyphicon, .glyphicon-search {
+
+.glyphicon,
+.glyphicon-search {
   color: #165d5c;
   font-size: 18px;
 }
